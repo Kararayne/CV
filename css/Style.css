@@ -4,6 +4,9 @@ body{
     margin-right: auto;
     font-family: sans-serif;
 }
+h2{
+    color: #17abb3;
+}
 
 /*header*/
 header{
@@ -46,4 +49,63 @@ header{
     margin-top: 15px;
     width: 400px;
     text-align: center;
+}
+/*fin header*/
+/*aside*/
+aside{
+    background-color: #e3e3e3;
+    margin-right: 50px;
+    padding: 30px;
+    width: 400px;
+}
+.align1{
+    display: flex;
+    flex-wrap: wrap;   
+
+}
+.txt{
+    
+    width: 50px;
+}
+.etoile{
+    padding-top: 15px;
+    margin-left: 150px;
+}
+.inherit{
+    color: #ffffff;
+}
+.lang{
+ 
+flex-basis: 35%;
+}
+.lang2{
+    flex-basis: 45%;
+   text-align: end;
+   
+}
+li::marker{
+    color: #17abb3;
+    font-size: 1.5em;
+}   
+li::before{
+    content: square;
+    font-size: 20px;
+}
+li{
+    list-style-type: square;
+    flex-basis: 35%;
+}
+ul{
+      
+    padding-left: 30px;
+    
+}
+/*fin aside*/
+
+main{
+    width: 800px ;
+ }
+ .align{
+    display: flex;
+    flex-direction: row-reverse;
 }
