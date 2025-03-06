@@ -1,5 +1,5 @@
 body{
-    max-width: 1200px;
+    max-width: 1160px;
     margin-left: auto;
     margin-right: auto;
     font-family: sans-serif;
@@ -8,7 +8,10 @@ body{
 h2{
     color: #17abb3;
 }
-
+.align{
+    display: flex;
+    flex-direction: row-reverse;
+}
 /*header*/
 header{
     background-color: #17abb3;
@@ -124,11 +127,35 @@ display: flex;
 justify-content: center;
 }
 /*Fin Footer*/
-
+/*Main*/
 main{
     width: 800px ;
  }
- .align{
+.align2{
     display: flex;
-    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
+.align3{
+    height: 30px;
+    display: flex;
+    flex-basis: 50%;
+    margin-bottom: 0px;
+    align-items: flex-end;
+
+}
+.align4{
+    height: 30px;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 0px;
+    color: #17abb3;
+}
+.align5{
+    height: 30px;
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 0px;
+}
+/*Fin Main*/
