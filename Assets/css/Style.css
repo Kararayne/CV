@@ -1,4 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Regular.woff);
+    src: url(../fonts/Raleway-Regular.ttf) format('trutype');
+}
+h1{
+    font-family: "Lato";
+}
+
+p {
+    font-family: "Raleway";
+}
+li{
+    font-family: "Raleway";
+}
 body{
+    font-family: "Raleway";
     max-width: 1160px;
     margin-left: auto;
     margin-right: auto;
@@ -7,6 +25,7 @@ body{
 }
 h2{
     color: #17abb3;
+    font-family: "Lato";
 }
 .align{
     display: flex;
@@ -19,11 +38,11 @@ header{
 .header{
     display: flex;
     width: 1200px;
-    height: 200px;
+    height: 220px;
 }
 .info{
     width: 800px;
-    margin-left: 400px;
+    margin-left: 50px;
     color: #ffffff;
 }
 .photoprofil{
@@ -45,14 +64,38 @@ header{
 }
 .divicone{
     display: inline-flex;
-    flex-basis: 35%;
+    justify-content: flex-end;
+    margin-right: 10px;
+    flex-basis: 45%;
     height: 60px;
 }
+.divicone1{
+    display: inline-flex;
+    margin-right: 10px;
+    flex-basis: 45%;
+    height: 60px;
+}
+.divicone2{
+    display: inline-flex;
+    margin-right: 10px;
+    flex-basis: 25%;
+    height: 60px;
+}
+.divicone3{
+    display: inline-flex;
+    margin-right: 60px;
+    flex-basis: 39%;
+    height: 60px;
+    justify-content: flex-end;
+}
+
 .marg{
     margin: 0;
     margin-top: 15px;
-    width: 400px;
     text-align: center;
+}
+.small{
+    font-size: small;
 }
 /*fin header*/
 /*aside*/
@@ -65,10 +108,9 @@ aside{
 .align1{
     display: flex;
     flex-wrap: wrap;   
-
 }
 .txt{
-    
+    font-weight: bold;
     width: 50px;
 }
 .etoile{
@@ -81,6 +123,7 @@ aside{
 .lang{
  
 flex-basis: 35%;
+font-weight: bold;
 }
 .lang2{
     flex-basis: 45%;
@@ -92,7 +135,7 @@ li::marker{
     font-size: 1.5em;
 }   
 li::before{
-    content: square;
+    
     font-size: 20px;
 }
 li{
@@ -121,6 +164,8 @@ footer{
     justify-content: center;
     margin: 0px;
     padding-bottom: 10px;
+    font-size: small;
+    font-style: italic;
 }
 .marg2{
 display: flex;
@@ -141,6 +186,7 @@ main{
     flex-basis: 50%;
     margin-bottom: 0px;
     align-items: flex-end;
+    font-weight: bold;
 
 }
 .align4{
@@ -157,5 +203,12 @@ main{
     display: flex;
     flex-basis: 50%;
     margin-top: 0px;
+    font-size: small;
+    font-style: italic;
+}
+.indent{
+    text-indent: 50px;
+    text-align: justify;
+    margin: 0px;
 }
 /*Fin Main*/
