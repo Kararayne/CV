@@ -12,8 +12,15 @@ h1{
 p {
     font-family: "Raleway";
 }
+strong{
+    font-weight: normal;
+}
 li{
     font-family: "Raleway";
+}
+.color{
+    background-color: #ffffff;
+    max-width: 1160px;
 }
 body{
     font-family: "Raleway";
@@ -22,6 +29,8 @@ body{
     margin-right: auto;
     font-family: sans-serif;
     box-sizing: border-box;
+    background-color: #f5f5f5;
+   
 }
 h2{
     color: #17abb3;
@@ -30,6 +39,7 @@ h2{
 .align{
     display: flex;
     flex-direction: row-reverse;
+    padding-right: 40px;
 }
 /*header*/
 header{
@@ -37,7 +47,6 @@ header{
 }
 .header{
     display: flex;
-    width: 1200px;
     height: 220px;
 }
 .info{
@@ -51,6 +60,8 @@ header{
     border-radius: 100px;
     margin-left: 100px;
     margin-top: 20px;
+    cursor: zoom-in;
+    border: 5px solid #ffffff;
 }
 .icone{
     width: 20px;
@@ -96,6 +107,17 @@ header{
 }
 .small{
     font-size: small;
+}
+.none {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 8px;
+}
+.none1 {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
 }
 /*fin header*/
 /*aside*/
@@ -171,6 +193,9 @@ footer{
 display: flex;
 justify-content: center;
 }
+.marg2 :hover{
+    opacity: .85;
+    }
 /*Fin Footer*/
 /*Main*/
 main{
@@ -179,6 +204,7 @@ main{
 .align2{
     display: flex;
     flex-wrap: wrap;
+    padding-right: 10px;
 }
 .align3{
     height: 30px;
@@ -197,6 +223,7 @@ main{
     align-items: flex-end;
     margin-bottom: 0px;
     color: #17abb3;
+    
 }
 .align5{
     height: 30px;
@@ -205,10 +232,22 @@ main{
     margin-top: 0px;
     font-size: small;
     font-style: italic;
-}
+    }
 .indent{
     text-indent: 50px;
     text-align: justify;
     margin: 0px;
 }
+.txt1{
+    font-weight: bold;
+    }
+.hover :hover{
+        background-color: #e3e3e3;
+        border-left: 7px solid #17abb3;
+        padding-left: 10px;
+    }   
+    .align2 :hover{
+        border-left: initial;
+        padding-left: initial;
+    } 
 /*Fin Main*/
